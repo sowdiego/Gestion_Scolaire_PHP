@@ -1,0 +1,76 @@
+#menu_h ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#menu_h li {
+	display: inline-block;
+	margin: auto 10px;
+	padding: 5px 10px;
+}
+
+
+#menu ul{
+	list-style-type: none;
+	text-align: left;
+}
+
+#menu li{
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+
+a:link, a:visited{
+	color: blue;
+}
+
+#menu_h li:hover{
+	border-radius: 5px;
+	background-color: #EEE;
+}
+
+#menu_h li ul{
+	display: none;
+	text-align: left;
+	background-color: #EEE;
+}
+
+#menu_h li:hover ul{
+	display: block;
+	position: fixed;
+}
+
+#menu_h li ul li{
+	display: block;
+	margin-left: -40px;
+}
+
+#menu_h li ul li:hover{
+	background-color: #FFF;
+}
+
+.label-top{
+	display: block;
+}
+
+.form-field{
+	margin-bottom: 15px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.input-text-max{
+	width: 250px;
+}
+
+.succes{
+	color: green;
+	
+}
+
+.echec{
+	color: red;
+
+}
+
+
